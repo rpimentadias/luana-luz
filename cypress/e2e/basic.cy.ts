@@ -5,7 +5,7 @@ describe('empty spec', () => {
 
   it('displays the resources text', () => {
     cy.get('h2')
-    .contains('Podologia e Embelezamento');
+    .contains('Beleza e Saúde');
   })
   it('renders the image', () => {
     cy.get('img')
