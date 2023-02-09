@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-// import { WindowRef } from './WindowRef';
+import { WindowRef } from './WindowRef';
 
 @NgModule({
   declarations: [
@@ -13,7 +13,6 @@ import { AppComponent } from './app.component';
     BrowserModule,
     AppRoutingModule
   ],
-  // providers: [ WindowRef ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
